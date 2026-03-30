@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Save, X, Edit2, Clock, Play, Pause, RotateCcw } from 'lucide-react';
+import { Save, X, LocationEdit as Edit2, Clock, Play, Pause, RotateCcw } from 'lucide-react';
 
 interface WorkoutLoggerProps {
   planId: number;

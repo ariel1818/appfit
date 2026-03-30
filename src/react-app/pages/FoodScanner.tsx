@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
 import { Link, useNavigate } from 'react-router';
-import { ArrowLeft, Camera, Upload, Loader2, Image, Check } from 'lucide-react';
+import { ArrowLeft, Camera, Upload, Loader as Loader2, Image, Check } from 'lucide-react';
 
 interface FoodAnalysis {
   name: string;

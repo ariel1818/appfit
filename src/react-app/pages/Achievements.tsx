@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Target, Lock, CheckCircle2 } from 'lucide-react';
+import { Target, Lock, CircleCheck as CheckCircle2 } from 'lucide-react';
 
 interface Achievement {
   id: number;

@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
 import { Link } from 'react-router';
-import { ArrowLeft, Video, Camera, Upload, Loader2, CheckCircle, AlertTriangle, Film } from 'lucide-react';
+import { ArrowLeft, Video, Camera, Upload, Loader as Loader2, CircleCheck as CheckCircle, TriangleAlert as AlertTriangle, Film } from 'lucide-react';
 
 interface FormAnalysis {
   exercise_identified: string;

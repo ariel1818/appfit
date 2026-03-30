@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useSearchParams } from 'react-router';
-import { Dumbbell, Target, TrendingUp, Calendar, ArrowRight, Sparkles, Clock, Wrench, AlertCircle, Zap } from 'lucide-react';
+import { Dumbbell, Target, TrendingUp, Calendar, ArrowRight, Sparkles, Clock, Wrench, CircleAlert as AlertCircle, Zap } from 'lucide-react';
 
 export default function WorkoutBuilder() {
   const navigate = useNavigate();

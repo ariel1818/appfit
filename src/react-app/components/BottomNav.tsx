@@ -1,5 +1,5 @@
 import { memo } from 'react';
-import { Home, Dumbbell, Apple, Trophy, User } from 'lucide-react';
+import { Chrome as Home, Dumbbell, Apple, Trophy, User } from 'lucide-react';
 import { Link, useLocation } from 'react-router';
 
 function BottomNav() {

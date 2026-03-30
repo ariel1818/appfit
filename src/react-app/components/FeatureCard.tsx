@@ -1,5 +1,5 @@
 import { Link } from 'react-router';
-import { LucideIcon, ArrowRight } from 'lucide-react';
+import { Video as LucideIcon, ArrowRight } from 'lucide-react';
 
 interface FeatureCardProps {
   to: string;

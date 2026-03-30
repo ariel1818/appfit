@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router';
-import { ArrowLeft, Sparkles, Loader2, User, Activity, AlertCircle } from 'lucide-react';
+import { ArrowLeft, Sparkles, Loader as Loader2, User, Activity, CircleAlert as AlertCircle } from 'lucide-react';
 
 export default function DietGenerator() {
   const navigate = useNavigate();

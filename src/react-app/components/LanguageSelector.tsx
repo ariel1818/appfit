@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Globe, Loader2, Check } from 'lucide-react';
+import { Globe, Loader as Loader2, Check } from 'lucide-react';
 
 const languages = [
   { code: 'pt', name: 'Português', flag: '🇧🇷' },

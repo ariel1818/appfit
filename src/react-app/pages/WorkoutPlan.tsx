@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router';
-import { ArrowLeft, Dumbbell, Calendar, Target, Clock, Repeat, Edit2, History, RefreshCw } from 'lucide-react';
+import { ArrowLeft, Dumbbell, Calendar, Target, Clock, Repeat, LocationEdit as Edit2, History, RefreshCw } from 'lucide-react';
 import type { WorkoutPlanWithExercises } from '@/shared/workout-types';
 import type { Exercise } from '@/shared/types';
 import WorkoutLogger from '@/react-app/components/WorkoutLogger';

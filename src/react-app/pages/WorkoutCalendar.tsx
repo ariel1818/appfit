@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router';
-import { ArrowLeft, Calendar as CalendarIcon, ChevronLeft, ChevronRight, CheckCircle, X, Plus } from 'lucide-react';
+import { ArrowLeft, Calendar as CalendarIcon, ChevronLeft, ChevronRight, CircleCheck as CheckCircle, X, Plus } from 'lucide-react';
 
 interface WorkoutEntry {
   id: number;
