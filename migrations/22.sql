@@ -1,0 +1,40 @@
+-- Antebraço e Trapézio (15 exercícios Musculação)
+INSERT INTO exercises (name, description, instructions, muscle_group, equipment, difficulty, sport_category, image_url) VALUES
+('Rosca Punho', 'Antebraço flexor', 'Antebraços apoiados, flexione punhos com barra.', 'Antebraço', 'Barra', 'Iniciante', 'Musculação', 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800'),
+('Rosca Punho Inversa', 'Antebraço extensor', 'Antebraços apoiados, estenda punhos com barra.', 'Antebraço', 'Barra', 'Iniciante', 'Musculação', 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800'),
+('Farmer Walk', 'Antebraço e pegada', 'Caminhe segurando pesos pesados.', 'Antebraço', 'Halteres Pesados', 'Intermediário', 'Musculação', 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800'),
+('Pronação e Supinação', 'Rotação antebraço', 'Gire punho com halter ou bastão.', 'Antebraço', 'Halter', 'Iniciante', 'Musculação', 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800'),
+('Dead Hang', 'Pegada isométrica', 'Pendure na barra o máximo de tempo.', 'Antebraço', 'Barra Fixa', 'Intermediário', 'Musculação', 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800'),
+('Encolhimento com Barra', 'Trapézio superior', 'Eleve ombros com barra pesada.', 'Trapézio', 'Barra', 'Iniciante', 'Musculação', 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800'),
+('Encolhimento com Halteres', 'Trapézio bilateral', 'Eleve ombros com halteres.', 'Trapézio', 'Halteres', 'Iniciante', 'Musculação', 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800'),
+('Farmer Shrugs', 'Trapézio dinâmico', 'Encolhimento caminhando.', 'Trapézio', 'Halteres', 'Intermediário', 'Musculação', 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800'),
+('Power Shrug', 'Trapézio explosivo', 'Encolhimento com impulso das pernas.', 'Trapézio', 'Barra', 'Avançado', 'Musculação', 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800'),
+('Wrist Roller', 'Antebraço completo', 'Enrole corda com peso usando punhos.', 'Antebraço', 'Wrist Roller', 'Intermediário', 'Musculação', 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800'),
+('Plate Pinch', 'Pegada de pinça', 'Segure anilhas com dedos.', 'Antebraço', 'Anilhas', 'Intermediário', 'Musculação', 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800'),
+('Grip Crush', 'Força de aperto', 'Aperte hand gripper.', 'Antebraço', 'Hand Gripper', 'Iniciante', 'Musculação', 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800'),
+('Reverse Curl', 'Antebraço e bíceps', 'Rosca com pegada pronada.', 'Antebraço', 'Barra', 'Intermediário', 'Musculação', 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800'),
+('Snatch Grip Shrug', 'Trapézio pegada ampla', 'Encolhimento com pegada olímpica.', 'Trapézio', 'Barra', 'Avançado', 'Musculação', 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800'),
+('Behind Back Shrug', 'Trapézio posterior', 'Encolhimento com barra atrás.', 'Trapézio', 'Barra', 'Intermediário', 'Musculação', 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800');
+
+-- Exercícios Compostos e Funcionais Musculação (20 exercícios)
+INSERT INTO exercises (name, description, instructions, muscle_group, equipment, difficulty, sport_category, image_url) VALUES
+('Clean and Press', 'Corpo inteiro explosivo', 'Levante barra do chão até ombros e empurre acima.', 'Corpo Inteiro', 'Barra', 'Avançado', 'Musculação', 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800'),
+('Thruster', 'Agachamento e press', 'Agache e empurre barra acima em um movimento.', 'Corpo Inteiro', 'Barra', 'Avançado', 'Musculação', 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800'),
+('Burpee', 'Condicionamento total', 'Flexão, salto ao agachamento, salto vertical.', 'Corpo Inteiro', 'Peso Corporal', 'Intermediário', 'Musculação', 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800'),
+('Kettlebell Swing', 'Posterior e explosão', 'Balance kettlebell entre pernas e acima.', 'Corpo Inteiro', 'Kettlebell', 'Intermediário', 'Musculação', 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800'),
+('Man Maker', 'Complexo total', 'Burpee com remada e press.', 'Corpo Inteiro', 'Halteres', 'Avançado', 'Musculação', 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800'),
+('Snatch', 'Levantamento olímpico', 'Levante barra do chão acima da cabeça em um movimento.', 'Corpo Inteiro', 'Barra', 'Avançado', 'Musculação', 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800'),
+('Clean', 'Levantamento olímpico', 'Levante barra do chão até ombros explosivamente.', 'Corpo Inteiro', 'Barra', 'Avançado', 'Musculação', 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800'),
+('Devil Press', 'Burpee com halteres', 'Burpee segurando halteres, eleve acima da cabeça.', 'Corpo Inteiro', 'Halteres', 'Avançado', 'Musculação', 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800'),
+('Complexo de Barra', 'Série sem soltar barra', 'Combine vários exercícios sem largar a barra.', 'Corpo Inteiro', 'Barra', 'Avançado', 'Musculação', 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800'),
+('Sled Push', 'Força e potência', 'Empurre trenó carregado.', 'Corpo Inteiro', 'Sled', 'Intermediário', 'Musculação', 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800'),
+('Sled Pull', 'Puxada funcional', 'Puxe trenó para trás.', 'Corpo Inteiro', 'Sled', 'Intermediário', 'Musculação', 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800'),
+('Battle Ropes', 'Condicionamento ombros', 'Ondule cordas pesadas.', 'Corpo Inteiro', 'Battle Ropes', 'Intermediário', 'Musculação', 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800'),
+('Tire Flip', 'Força total', 'Vire pneu gigante.', 'Corpo Inteiro', 'Pneu', 'Avançado', 'Musculação', 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800'),
+('Sandbag Carry', 'Transporte funcional', 'Carregue saco de areia.', 'Corpo Inteiro', 'Sandbag', 'Intermediário', 'Musculação', 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800'),
+('Muscle-up', 'Barra avançado', 'Puxe e empurre corpo acima da barra.', 'Corpo Inteiro', 'Barra Fixa', 'Avançado', 'Musculação', 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800'),
+('Wall Ball', 'Agachamento e arremesso', 'Agache e arremesse bola à parede.', 'Corpo Inteiro', 'Medicine Ball', 'Intermediário', 'Musculação', 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800'),
+('Broad Jump', 'Explosão horizontal', 'Salto em distância explosivo.', 'Corpo Inteiro', 'Peso Corporal', 'Intermediário', 'Musculação', 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800'),
+('Bear Crawl', 'Movimento animal', 'Rasteje em quatro apoios.', 'Corpo Inteiro', 'Peso Corporal', 'Intermediário', 'Musculação', 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800'),
+('Crab Walk', 'Movimento inverso', 'Caminhe de costas em quatro apoios.', 'Corpo Inteiro', 'Peso Corporal', 'Iniciante', 'Musculação', 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800'),
+('Complexo Kettlebell', 'Série com kettlebell', 'Múltiplos exercícios sem soltar o sino.', 'Corpo Inteiro', 'Kettlebell', 'Avançado', 'Musculação', 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800');

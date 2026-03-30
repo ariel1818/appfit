@@ -1,0 +1,1 @@
+DELETE FROM exercises WHERE muscle_group IN ('Bíceps', 'Tríceps', 'Abdômen') AND id > 12;

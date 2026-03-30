@@ -1,0 +1,1 @@
+DELETE FROM exercises WHERE sport_category = 'Handebol';

@@ -1,0 +1,1 @@
+DELETE FROM exercises WHERE muscle_group IN ('Antebraço', 'Trapézio', 'Corpo Inteiro') AND id > 12;

@@ -1,0 +1,1 @@
+DELETE FROM exercises WHERE muscle_group IN ('Pernas', 'Ombros') AND id > 12;

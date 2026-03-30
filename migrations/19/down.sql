@@ -1,0 +1,1 @@
+DELETE FROM exercises WHERE id > 12;
